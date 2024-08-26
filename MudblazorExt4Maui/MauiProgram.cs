@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using MudBlazor.Extensions;
 using MudBlazor.Services;
 
 namespace MudblazorExt4Maui
@@ -18,6 +19,10 @@ namespace MudblazorExt4Maui
             builder.Services.AddMauiBlazorWebView();
 
             builder.Services.AddMudServices();
+
+            builder.Services.AddMudExtensions();
+
+
 
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();
