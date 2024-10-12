@@ -58,12 +58,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.80" />
-        <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.80" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.80" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
-        <PackageReference Include="MudBlazor" Version="7.5.0" />
-        <PackageReference Include="MudBlazor.Extensions" Version="2.0.3" />
+        <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.91" />
+        <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.91" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.91" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+        <PackageReference Include="MudBlazor" Version="7.10.0" />
+		<PackageReference Include="MudBlazor.Extensions" Version="2.0.6-prev-2410112222-main" />
     </ItemGroup>
 
 </Project>
